@@ -1,0 +1,292 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecran"
+    tools:context=".A_UnicaFarma" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ecran_fundo" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_weight="2"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="25dp" >
+
+                            <ImageView
+                                android:id="@+id/imageView_24"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/mini_venda_a_grosso"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_vendas_a_grosso"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="VENDA A GROSSO"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp" >
+
+                            <ImageView
+                                android:id="@+id/imageView_21"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/mini_venda_a_retalho"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_vendas_a_retalho"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="VENDA A RETALHO"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp" >
+
+                            <ImageView
+                                android:id="@+id/imageView_28"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/mini_compra_a_credito"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_credito"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="COMPRA A CRÉDITO"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp" >
+
+                            <ImageView
+                                android:id="@+id/imageView_26"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/mini_encomendas"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                            
+                            <Button
+                                android:id="@+id/button_encomendas"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="SERVIÇOS"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:id="@+id/imageView_27"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/mini_transporte"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_transporte"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="TRANSPORTE"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:id="@+id/imageView_29"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/mini_galeria"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_galeria_de_produtos"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="GALERIA / VITRINE"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:id="@+id/imageView_20"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/mini_ofertas"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                            
+                            <Button
+                                android:id="@+id/button_ofertas"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="OFERTAS"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/button_voltar_3"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="right"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button_exit"
+                            android:text="Voltar"
+                            android:textColor="#ffffff"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>

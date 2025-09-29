@@ -1,0 +1,455 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecran"
+    tools:context=".A_UnicaFarma" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ecran_fundo" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_weight="2"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="5dp" >
+
+                            <ImageView
+                                android:id="@+id/ImageView01"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/TextView01"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="APOIO AO CLIÊNTE"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/preto"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp" >
+
+                            <ImageView
+                                android:id="@+id/imageView22"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_call_center"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text=" 945 777 711  /  934 334 445"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="5dp" >
+
+                            <ImageView
+                                android:id="@+id/ImageView02"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="DEPÓSITO PALANCA"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/preto"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp" >
+
+                            <ImageView
+                                android:id="@+id/imageView20"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_call_palanca"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="931 220 251"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="5dp" >
+
+                            <ImageView
+                                android:id="@+id/ImageView05"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/TextView05"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="DEPÓSITO MULEMBA"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/preto"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:visibility="visible" >
+
+                            <ImageView
+                                android:id="@+id/imageView25"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_call_mulemba"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="935 063 628"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="5dp" >
+
+                            <ImageView
+                                android:id="@+id/ImageView03"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/TextView03"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="DEPÓSITO HUAMBO"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/preto"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp" >
+
+                            <ImageView
+                                android:id="@+id/imageView21"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_call_huambo"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="937 536 456"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="5dp" >
+
+                            <ImageView
+                                android:id="@+id/ImageView04"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/TextView04"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="DEPÓSITO LOBITO"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/preto"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp" >
+
+                            <ImageView
+                                android:id="@+id/imageView23"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_call_lobito"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="929 430 278"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="5dp" >
+
+                            <ImageView
+                                android:id="@+id/ImageView06"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/TextView07"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="APP ASSISTÊNCIA"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/preto"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp" >
+
+                            <ImageView
+                                android:id="@+id/ImageView07"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="18dp"
+                                android:background="@drawable/username"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/button_call_assistencia"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/button_interface"
+                                android:gravity="center"
+                                android:text="942 304 949"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/button_voltar_c31"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_exit"
+                        android:text="Voltar"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="*Toque no Contacto para ligar"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/preto"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</FrameLayout>

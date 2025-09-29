@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
+    compileOptions.encoding = 'windows-1252' // write your encoding here
+
+    defaultConfig {
+        applicationId "antoldstudio.unicafarmalda"
+        minSdkVersion 16
+        targetSdkVersion 29
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    releaseImplementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation files('libs/android-support-v4.jar')
+    implementation files('libs/axis2-transport-http-1.5.4.jar')
+    implementation files('libs/gdata-analytics-2.1.jar')
+    implementation files('libs/gdata-analytics-meta-2.1.jar')
+    implementation files('libs/gdata-appsforyourdomain-1.0.jar')
+    implementation files('libs/gdata-appsforyourdomain-meta-1.0.jar')
+    compile files('libs/gdata-base-1.0.jar')
+    compile files('libs/gdata-blogger-2.0.jar')
+    compile files('libs/gdata-blogger-meta-2.0.jar')
+    compile files('libs/gdata-books-1.0.jar')
+    compile files('libs/gdata-books-meta-1.0.jar')
+    compile files('libs/gdata-calendar-2.0.jar')
+    compile files('libs/gdata-calendar-meta-2.0.jar')
+    compile files('libs/gdata-client-1.0.jar')
+    compile files('libs/gdata-client-meta-1.0.jar')
+    compile files('libs/gdata-codesearch-2.0.jar')
+    compile files('libs/gdata-codesearch-meta-2.0.jar')
+    compile files('libs/gdata-contacts-3.0.jar')
+    compile files('libs/gdata-contacts-meta-3.0.jar')
+    compile files('libs/gdata-core-1.0.jar')
+    compile files('libs/gdata-docs-3.0.jar')
+    compile files('libs/gdata-docs-meta-3.0.jar')
+    compile files('libs/gdata-finance-2.0.jar')
+    compile files('libs/gdata-finance-meta-2.0.jar')
+    compile files('libs/gdata-gtt-2.0.jar')
+    compile files('libs/gdata-gtt-meta-2.0.jar')
+    compile files('libs/gdata-health-2.0.jar')
+    compile files('libs/gdata-health-meta-2.0.jar')
+    compile files('libs/gdata-maps-2.0.jar')
+    compile files('libs/gdata-maps-meta-2.0.jar')
+    compile files('libs/gdata-media-1.0.jar')
+    compile files('libs/gdata-photos-2.0.jar')
+    compile files('libs/gdata-photos-meta-2.0.jar')
+    compile files('libs/gdata-projecthosting-2.1.jar')
+    compile files('libs/gdata-projecthosting-meta-2.1.jar')
+    compile files('libs/gdata-sidewiki-2.0.jar')
+    compile files('libs/gdata-sidewiki-meta-2.0.jar')
+    compile files('libs/gdata-sites-2.0.jar')
+    compile files('libs/gdata-sites-meta-2.0.jar')
+    compile files('libs/gdata-spreadsheet-3.0.jar')
+    compile files('libs/gdata-spreadsheet-meta-3.0.jar')
+    compile files('libs/gdata-webmastertools-2.0.jar')
+    compile files('libs/gdata-webmastertools-meta-2.0.jar')
+    compile files('libs/gdata-youtube-2.0.jar')
+    compile files('libs/gdata-youtube-meta-2.0.jar')
+    implementation files('libs/gson-2.2.4.jar')
+    implementation files('libs/guava-11.0.2.jar')
+    implementation files('libs/httpmime-4.1.1.jar')
+    implementation files('libs/jsr305.jar')
+    implementation files('libs/mail.jar')
+    implementation files('libs/okhttp-3.4.1.jar')
+    implementation files('libs/retrofit-2.1.0.jar')
+}

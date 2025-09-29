@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecran"    
+    tools:context=".A_UnicaFarma" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ecran"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <requestFocus />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/z0" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="GALERIA DE PRODUTOS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/preto"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="Uma Galeria geralmente é o local onde se tem a visualização de todos os produtos que o establecimento possui. Desse modo, os clientes poderão saber com exatidão, quais são todos os produtos da empresa. \n\nVenha ter connosco, nossos Promotores de Venda o vão ajudar saber quantos produtos temos, quais estão ativos, os inativos e os valores de cada um deles. \n\nTemos vitrines com os nossos produtos como Galeria na ÚNICA FARMA LDA do Palanca, Mulemba, Huambo e Lobito."
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/preto"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_voltar_36"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_exit"
+                        android:text="Voltar"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

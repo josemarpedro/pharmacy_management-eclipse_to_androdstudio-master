@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecran"    
+    tools:context=".A_UnicaFarma" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ecran"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <requestFocus />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/credito" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="COMPRA A CRÉDITO"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/preto"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="Na origem da palavra, um crédito significa uma confiança depositada em algo ou alguém. Nesse sentido, se sujeito for confiada uma quantia de dinheiro, está recebendo um “crédito” da instituição em que fez o pedido.\n\nA ÚNICA FARMA LDA disponibiliza o meio de compra a Crédito, sendo que o máximo de tempo esperado para o pagamento é de 30 dias. Para saber quais são os documentos necessário para o efeito do mesmo, ligue para o nosso Apoio ao Cliente ou venha nos fazer uma visita. \n\nCompras a Crédito podem ser feitas na ÚNICA FARMA LDA do Palanca, Cacuaco, Huambo e Lobito."
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/preto"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_voltar_34"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_exit"
+                        android:text="Voltar"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

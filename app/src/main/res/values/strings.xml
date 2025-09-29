@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ÚNICA FARMA Lda</string>
+    <string name="app_name_logo">ÚNICA FARMA</string>
+    <string name="app_name_na_no">na Única Farma</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_person_detail_list_view">Lista de Informaões Pessoais</string>
+    <string name="title_activity_spread_sheet">Informações</string>
+
+</resources>

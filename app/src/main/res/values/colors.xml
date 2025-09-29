@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="branca">#ffffff</color>
+    <color name="preto">#000000</color>
+    <color name="laranja">#FF8C00</color>
+    <color name="laranja_unitel">#EE5911</color>
+    <color name="amarela">#FFFF00</color>
+    <color name="vermelha">#FF0000</color>
+    <color name="azul">#0000FF</color>
+    <color name="azul_escuro_vivo">#120A8F</color>
+    <color name="azul_ciano">#00b8e6</color>
+    <color name="cinza">#DCDCDC</color>
+    <color name="castanho_marron">#800000</color>
+    <color name="castanho">#A52A2A</color>
+    <color name="azul_facebook">#00CED1</color>
+    <color name="castanho_vivo">#8B4513</color>
+    <color name="lilas">#800080</color>
+    <color name="azul_escuro">#4B0082</color> 
+</resources>

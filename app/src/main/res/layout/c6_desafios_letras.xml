@@ -1,0 +1,194 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branca"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".A_UnicaFarma" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/branca"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="vertical" >
+
+                    <requestFocus />
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="1. Jack, Peter e Bill\n\nJack é mais alto que Peter, e Bill é mais baixo que Jack. Qual das cinco seguintes sentenças seria a mais apropriada?"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/azul"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1.00"
+                        android:gravity="left"
+                        android:text="(A) Bill é mais alto que Peter.\n(B) Bill é mais baixo que Peter.\n(C) Bill é tão alto quanto Peter.\n(D) É impossível dizer se Peter ou Bill é mais alto."
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/azul"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    
+                    <TextView
+                        android:id="@+id/TextView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="*\n2. Qual das letras\n\nQual das letras não pertence à seguinte série: A - D - G - I - J - M - P - S\n\nA resposta é a letra?: D - I - J - M - S"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/azul"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="*\n3. Se você rearranjasse RAPIS\n\nSe você rearranjasse as letras RAPIS, você teria o nome de um:\n\nOCEANO - PAÍS - ESTADO - CIDADE - ANIMAL"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/azul"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="*\n4. Se você rearranjasse MÃNGERIA\n\nSe você rearranjasse as letras MÂNGERIA, você teria o nome de um:\n\nOCEANO - PAÍS - ESTADO - CIDADE - ANIMAL"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/azul"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="*\n5. Fleeps, Sloops e Loopies\n\nSe todos Fleeps são Sloops e todos Sloops são Loopies, então todos Fleeps são definitivamente Loopies.\n\nEsta sentença é:\nVERDADEIRA - FALSA - NENHUMA DAS DUAS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/azul"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="*\n6. Smaugs, Thors e Thrains\n\nSe alguns Smaugs são Thors e alguns Thors são Thrains, então alguns Smaugs são definitivamente Thrains.\n\nEsta sentença é:\nVERDADEIRA - FALSA - NENHUMA DA DUAS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/azul"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    
+                    <TextView
+                        android:id="@+id/TextView07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="*\n7. Bifurs, Bofurs e Gloins\n\nSe alguns Bifurs são Bofurs e todos Gloins são Bofurs, então alguns Bifurs são definitivamente Gloins.\n\nA sentença é?\nVERDADEIRA - FALSA - NENHUMA DAS DUAS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/azul"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    
+                    <TextView
+                        android:id="@+id/TextView08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="*\n8. Wargs, Twerps e Gollums\n\nSe todos Wargs são Twerps e nenhum dos Twerps são Gollums, então nenhum dos Gollums são definitivamente Wargs.\n\nA sentença é:\nVERDADEIRA - FALSA - NENHUMA DAS DUAS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/azul"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    
+                    <TextView
+                        android:id="@+id/TextView09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="*\n9. Elendil\n\nUma espaçonave recebeu três mensagens em uma estranha língua de um planeta distante. Os astronautas estudaram as três mensagens e descobriram que &apos;Elros Aldarion Elendil&apos; significava &apos;Perigo Explosão Foguete&apos; e &apos;Edain Mnyatur Elros&apos; significava &apos;Perigo Fogo Espaçonave&apos; e &apos;Aldarion Gimilzor Gondor&apos; significava &apos;Explosão Combustível Ruim&apos;.\n\nO que &apos;Elendil&apos; significa?\nPERIGO - EXPLOSÃO - NADA - FOGUETE - COMBUSTÍVEL"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/azul"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button_voltar_letras"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right|bottom"
+        android:layout_weight="1"
+        android:background="@drawable/button_exit"
+        android:text="Voltar"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</FrameLayout>

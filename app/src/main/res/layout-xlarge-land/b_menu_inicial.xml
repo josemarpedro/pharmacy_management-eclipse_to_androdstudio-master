@@ -1,0 +1,354 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecran"
+    tools:context=".A_UnicaFarma" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ecran" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="2" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/button_unicafarma"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/unicafarma_white"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView01"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="@string/app_name_logo"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/branca"
+                                android:textSize="28dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/button_produtos"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/instagram"
+                                android:gravity="center"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="CARDÁPIO"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/branca"
+                                android:textSize="28dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/button_actividades"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/actividades"
+                                android:gravity="center"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="ACTIVIDADES"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/branca"
+                                android:textSize="28dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="2" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/button_informacoes"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/informacoes"
+                                android:gravity="center"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView04"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="INFORMAÇÕES"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/branca"
+                                android:textSize="28dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/button_imagens"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/imagens"
+                                android:gravity="center"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView05"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="IMAGENS"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/branca"
+                                android:textSize="28dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/button_instagram"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/eventos"
+                                android:gravity="center"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView06"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="EVENTOS"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/branca"
+                                android:textSize="28dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="2" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/button_facebook"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/facebook"
+                                android:gravity="center"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView03"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="FACEBOOK"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/branca"
+                                android:textSize="28dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/button_desafios"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/desafios"
+                                android:gravity="center"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView08"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="DESAFIOS"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/branca"
+                                android:textSize="28dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/button_comentarios"
+                                style="@style/AppBaseTheme"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/comentarios"
+                                android:gravity="center"
+                                android:textColor="@color/branca"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView07"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="COMENTÁRIOS"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/branca"
+                                android:textSize="28dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </ScrollView>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_logout"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginTop="50dp"
+        android:background="@color/branca"
+        android:text="Sair"
+        android:textColor="@color/preto"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+</FrameLayout>

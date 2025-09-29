@@ -1,0 +1,20 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+		<item name="android:actionBarStyle">@style/MudarActionBar</item>
+	</style>
+
+	<style name="MudarActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+		<item name="android:background">@drawable/ecran0</item>
+		<item name="android:titleTextStyle">@style/ColorirTexto</item>
+	</style>
+	
+	<style name="ColorirTexto" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+	    <item name="android:textColor">@color/branca</item>
+	</style>
+
+</resources>

@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecran"    
+    tools:context=".A_UnicaFarma" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ecran"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <requestFocus />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:src="@drawable/unicafarma_welcome" />
+
+                    <TextView
+                        android:id="@+id/TextView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="Já imaginou encontrar um depósito Farmaceutico que tenha a venda Anestésicos, Cápsulas, Champô, Comprimidos, Gotas, Injectáveis, Loção, Pomadas, Solução, Soros, Supositóres, Suspensões, Xaropes, Materiais Cirúrgicos e outros produtos genéricos? \n\nNa Única Farma você vai encontrar isso e muito mais. Nos faça uma visita que não vai se arrepender, pois poderás fazer a compra de todos os produtos dentro de nosso estabelecimento, ou caso solicite uma grande encomenda, um dos nossos transportes levará para o seu endereço. \n\nA Única Farma oferece a todos os clientes um serviço diferenciado com o preço para todos os bolsos, apostando na diversidade e na qualidade dos mesmos, bem como na satisfação dos nossos clientes. \n\nA melhor escolha para sua empresa de saúde é a ÚNICA FARMA LDA!"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/preto"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_voltar_1"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_exit"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Voltar"
+                        android:textColor="#ffffff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

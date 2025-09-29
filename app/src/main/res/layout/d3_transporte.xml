@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecran"    
+    tools:context=".A_UnicaFarma" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ecran"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <requestFocus />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/transporte" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="TRANSPORTE DE CARGA"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/preto"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="O transporte de carga rodoviário é mais adequado para curtas e médios distâncias, e é considerado o mais seguro para transportar produtos, pois dentro das Vans e Caminhões a chance de sofrerem algum dano é bem menor do que em outros transportes. \n\nA ÚNICA FARMA LDA tem a sua disposição para prestar este serviço, pois entendemos que comprar-nos várias mercadorias são dificeis de o cliente levar para o seu destino. \n\nEncomendas podem ser feitas na ÚNICA FARMA LDA de Palanca, Cacuaco, Huambo e Lobito."
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/preto"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_voltar_35"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_exit"
+                        android:text="Voltar"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

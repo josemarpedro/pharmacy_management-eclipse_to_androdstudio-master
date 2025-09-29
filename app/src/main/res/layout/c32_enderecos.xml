@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecran"    
+    tools:context=".A_UnicaFarma" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ecran"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <requestFocus />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/enderecos" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1.00"
+                        android:gravity="center"
+                        android:text="ENDEREÇOS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/preto"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1.00"
+                        android:text="PALANCA: \nAvenida Pedro de Castro, Van-Dúnem Loy, bairro Palanca, município Kilamba Kiaxe, Luanda, Angola \n\nCACUACO: \nEstrada Direita de Cacuaco, Km 4,5, Mulemba, bairro Kandua Talhão No. 251/H, Luanda, Angola \n\nHUAMBO:  \nRua Principal do Cemitério, S/n, bairro São Pedro, município do Huambo, província do Huambo, Angola \n\nLOBITO:  \nAvenida Salvador Correia-Lobito, município do Lobito, província do Lobito, Angola \n\nEMAIL: \nluanda@unicafarmalda.com \n\nFACEBOOK: \nfb.com/unicafarmalda1 \n\nINSTAGRAM: \ninstagram.com/unicafarmalda"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/preto"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_voltar_32"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_exit"
+                        android:text="Voltar"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
