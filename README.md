@@ -1,3 +1,5 @@
+![](https://komarev.com/ghpvc/?username=josemarpedro)
+
 <img src="APK_for_PLAYSTORE/Combo.jpg" alt="Combo Screenshot" width="1024">
 
 
