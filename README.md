@@ -1,6 +1,8 @@
+<img src="APK_for_PLAYSTORE/Combo.jpg" alt="Combo Screenshot" width="1024">
+
+
 🌍 Languages: [English](README.md) | [Português Brasileiro](README.pt-BR.md)
 
-<img src="APK_for_PLAYSTORE/Combo.jpg" alt="Combo Screenshot" width="400">
 
 # UnicaFarmaLDA - Android App
 
@@ -77,12 +79,12 @@ Compiled date  : Before Setember, 2019.
 
 ## 📸 Screenshots
 
-<img src="APK_for_PLAYSTORE/1.jpg" alt="Screenshot 1" width="400">
-<img src="APK_for_PLAYSTORE/2.jpg" alt="Screenshot 2" width="400">
-<img src="APK_for_PLAYSTORE/3.jpg" alt="Screenshot 3" width="400">
-<img src="APK_for_PLAYSTORE/4.jpg" alt="Screenshot 4" width="400">
-<img src="APK_for_PLAYSTORE/5.jpg" alt="Screenshot 5" width="400">
-<img src="APK_for_PLAYSTORE/6.jpg" alt="Screenshot 6" width="400">
-<img src="APK_for_PLAYSTORE/7.jpg" alt="Screenshot 7" width="400">
-<img src="APK_for_PLAYSTORE/8.jpg" alt="Screenshot 8" width="400">
-<img src="APK_for_PLAYSTORE/9.jpg" alt="Screenshot 9" width="400">
+<img src="APK_for_PLAYSTORE/1.jpg" alt="Screenshot 1" width="1024">
+<img src="APK_for_PLAYSTORE/2.jpg" alt="Screenshot 2" width="1024">
+<img src="APK_for_PLAYSTORE/3.jpg" alt="Screenshot 3" width="1024">
+<img src="APK_for_PLAYSTORE/4.jpg" alt="Screenshot 4" width="1024">
+<img src="APK_for_PLAYSTORE/5.jpg" alt="Screenshot 5" width="1024">
+<img src="APK_for_PLAYSTORE/6.jpg" alt="Screenshot 6" width="1024">
+<img src="APK_for_PLAYSTORE/7.jpg" alt="Screenshot 7" width="1024">
+<img src="APK_for_PLAYSTORE/8.jpg" alt="Screenshot 8" width="1024">
+<img src="APK_for_PLAYSTORE/9.jpg" alt="Screenshot 9" width="1024">
